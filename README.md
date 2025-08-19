@@ -24,7 +24,7 @@ The analysis workflow was performed using [Seurat](https://satijalab.org/seurat/
     - Import filtered matrices from CellRanger, quality control, filtering, normalization, integration, and clustering.
 
 2. **Imputation and Differential Gene Expression (Seurat)**
-    - See: `script/2_Impuatation_DE_genes.R`
+    - See: `script/2_Imputation_DE_genes.R`
     - Imputation and Identification of differentially expressed genes.
 
 3. **Visualization and Figure Generation (Seurat)**
