@@ -156,3 +156,21 @@ features50_06<-all.markers_0.6 %>%
   slice_max(n = 50, order_by = avg_log2FC)
 
 
+# Subset Cd4+ Foxp3+ cells 
+
+# Extract Cd4 expression from counts
+cd4_expr <- FetchData(obj, vars = "Cd4", layer = "counts")
+# Select Cd4+ cells (threshold can be >=1 or >1 depending on stringency)
+cd4_positive_cells <- rownames(cd4_expr)[cd4_expr$Cd4 > 0]
+
+# Extract Foxp3 expression from counts
+foxp3_expr <- FetchData(obj, vars = "Foxp3", layer = "counts")
+# Select Foxp3+ cells (threshold can be >=1 or >1 depending on stringency)
+foxp3_positive_cells <- rownames(foxp3_expr)[foxp3_expr$Foxp3 > 0]
+
+# Intersection: CD4+Foxp3+ cells (Tregs)
+cells <- intersect(cd4_positive_cells, foxp3_positive_cells)
+
+subset <- subset(x = obj, cells = cells)
+
+saveRDS(subset, "/path/rds/seurat.integrated_processed_harmony_cd4_foxp3.rds")
