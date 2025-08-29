@@ -13,7 +13,7 @@ _Chen et al._
 
 This repository collects the scripts for processing and analyzing single-cell RNA sequencing (scRNAseq) data as described in the manuscript.  
 Preliminary analyses were performed using [Cellranger](https://www.10xgenomics.com/support/software/cell-ranger/latest) (10x Genomics).
-The analysis workflow was performed using [Seurat](https://satijalab.org/seurat/) v4, with additional supporting R packages.
+The analysis workflow was performed using [Seurat](https://satijalab.org/seurat/) v5, with additional supporting R packages.
 
 ---
 
