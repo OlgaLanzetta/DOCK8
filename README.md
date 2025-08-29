@@ -1,4 +1,4 @@
-# scRNAseq Analysis Code — Chen et al.
+# Dock8 scRNAseq Analysis Code — Chen et al.
 
 This repository contains all the code used in the analysis for the manuscript:
 
@@ -55,7 +55,7 @@ renv::restore()
 This will install the correct R packages and versions as used for the original analysis.
 
 > **Note:**  
-> The analysis was performed using R version ...............?  
+> The analysis was performed using R version 4.4.1  
 > For details about all package versions, please refer to the `renv.lock` file.
 
 ---
@@ -78,8 +78,7 @@ For Cellranger usage, refer to the [10x Genomics documentation](https://www.10xg
 
 ## Issues & Contact
 
-If you encounter any problems or have questions, please open an issue in this repository or contact Qian Chen at []() and Dr. Olga Lanzetta at [olga.lanzetta@edu.unige.it](mailto:olga.lanzetta@edu.unige.it)
+If you encounter any problems or have questions, please open an issue in this repository or contact Qian Chen at [....](....) and Dr. Olga Lanzetta at [olga.lanzetta@edu.unige.it](mailto:olga.lanzetta@edu.unige.it)
 
 ---
 
-# DOCK8
