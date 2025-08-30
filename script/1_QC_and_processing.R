@@ -95,6 +95,8 @@ DimPlot(combined, reduction = "umap.unintegrated", group.by = c("orig.ident"))
 # Perform integration
 
 options(future.globals.maxSize = 30 * 1024^3) 
+all_genes<-unique(c(rownames(so_list[[1]]),rownames(so_list[[2]]), rownames(so_list[[3]]), rownames(so_list[[4]])))
+all_genes
 obj <- IntegrateLayers(
     object = combined, method = HarmonyIntegration,   
   new.reduction = "harmony", verbose = FALSE, features = all_genes)
