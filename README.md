@@ -6,7 +6,7 @@ This repository contains all the code used in the analysis for the manuscript:
 _Chen et al._
 
 - **Manuscript:** [Link] (DOI: [..])
-- **Contact:** Qian Chen — (email?) / Talal Chatila -  talal.chatila@childrens.harvard.ed
+- **Contact:** Qian Chen — qianchen8828@gmail.com / Talal Chatila -  talal.chatila@childrens.harvard.edu
 ---
 
 ## Overview
@@ -78,7 +78,7 @@ For Cellranger usage, refer to the [10x Genomics documentation](https://www.10xg
 
 ## Issues & Contact
 
-If you encounter any problems or have questions, please open an issue in this repository or contact Qian Chen at [....](....) and Dr. Olga Lanzetta at [olga.lanzetta@edu.unige.it](mailto:olga.lanzetta@edu.unige.it)
+If you encounter any problems or have questions, please open an issue in this repository or contact Dr. Qian Chen at [qianchen8828@gmail.com](qianchen8828@gmail.com) and Dr. Olga Lanzetta at [olga.lanzetta@edu.unige.it](mailto:olga.lanzetta@edu.unige.it)
 
 ---
 
