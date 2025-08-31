@@ -37,7 +37,7 @@ The analysis workflow was performed using [Seurat](https://satijalab.org/seurat/
 ## Data Availability
 
 - **Raw sequencing data:** Available at GEO/SRA: [GSE303265](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE303265)
-- **Processed Seurat object:** Available on [Zenodo]() (DOI: )
+- **Processed Seurat object:** Available on [Zenodo]() (DOI: ) **Processed data will be available upon publication**
 
 ---
 
